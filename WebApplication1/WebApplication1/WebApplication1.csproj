@@ -10,15 +10,11 @@
 
   <ItemGroup>
     <Content Include="wwwroot\html\details.html" />
-    <Content Include="wwwroot\html\edit.html" />
     <Content Include="wwwroot\html\Index.html" />
     <Content Include="wwwroot\html\list.html" />
     <Content Include="wwwroot\js\DetailsController.js" />
-    <Content Include="wwwroot\js\EditController.js" />
     <Content Include="wwwroot\js\FriendListController.js" />
     <Content Include="wwwroot\js\FriendsService.js" />
-    <Content Include="wwwroot\js\MusicListController.js" />
-    <Content Include="wwwroot\js\MusicService.js" />
     <Content Include="wwwroot\js\theFriends.js" />
     <Content Include="wwwroot\lib\angular\angular.js" />
     <Content Include="wwwroot\lib\angular\angular.min.js" />
