@@ -1,0 +1,30 @@
+﻿<div ng-controller="FriendListController">
+    <h2 style="font-family:serif;font-weight:bold">My Friends</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>               
+                <th>Name</th>
+                <th>Status</th>
+                <th>Address</th>
+                <th>Available</th>               
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="friend in friends">
+                
+                <td>{{friend.name}}</td>
+                <td>{{friend.status}}</td>
+                <td>{{friend.address}}</td>
+                <td>{{friend.available}}</td>
+                <td>
+                    <a href="#/details/{{friend.id}}" class="btn btn-default btn-sm">Details</a>
+                    <button class="btn btn-danger btn-sm" ng-click="delete(friend)">Delete</button>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+  
+</div>
+
